@@ -1,20 +1,22 @@
 package pokemon;
 
-public class SimpleProg {
+public class SimpleProg extends Call {
 	
 	public class Pokémon{
-	    public String type;
-	    public int level;
-	    public String nickname;
+	  String type = "none";
+	  int level = 0;
+	  String nickname = "none";
 	    
-	public Pokémon (String name) {
+	public Pokémon (String species) {
+		type = "electric";
+		level = 100;
+		nickname = "Pikachiu";
 }
-	
 	public static void main(String[] args) {
 		Pokémon starter = new Pokémon( "pikachu" );
+		System.out.println();
 
 		    }
 		}
-		
 		
 }
