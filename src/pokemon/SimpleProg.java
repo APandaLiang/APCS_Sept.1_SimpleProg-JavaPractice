@@ -2,10 +2,11 @@ package pokemon;
 
 public class SimpleProg {
 	
-		public class Pokémon{
+	public class Pokémon{
 	    public String type;
 	    public int level;
 	    public String nickname;
+	    
 	public Pokémon (String name) {
 }
 	
